@@ -1,7 +1,7 @@
 import pytest
-
 from app.calculator import add, divide
 
+@pytest.mark.smoke
 def test_add():
     assert add(10,10)==20
 
